@@ -9,3 +9,6 @@ $ pip install -r requirements.txt
 ```
 $ python3 create_dataset.py 0.2 0.1 --resize 1600 900 --download -1
 ```
+The command alove creates a dataset, `csgo_dataset`, where val_ratio and test_ratio are set to 0.2 and 0.1, respectively.  
+You can also resize all the images to specific size by using `--resize`. The optional argument `--download -1` will all datasets
+available to this repos right now. You can change `-1` to the numbers of datasets you want to download, i.e., `--download 1 2`.
