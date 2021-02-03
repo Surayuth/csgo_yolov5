@@ -1,10 +1,11 @@
 # csgo_yolov5
 Before doing anything, you must clone this repos and install requirements
 ```
-git cline 
+$ git clone https://github.com/Surayuth/csgo_yolov5
+$ cd csgo_yolov5
+$ pip install -r requirements.txt
 ```
 1. Dataset for training, validation and testing can be created by   
 ```
-git clone ddd
+$ python3 create_dataset.py 0.2 0.1 --resize 1600 900 --download -1
 ```
-python3 pip -r install requirements.txt
