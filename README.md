@@ -22,3 +22,4 @@ $ pip install -r requirements.txt
 ```
 $ cp ../csgo.yaml yolov5
 ```
+**4. Train model**
