@@ -5,7 +5,7 @@ $ git clone https://github.com/Surayuth/csgo_yolov5
 $ cd csgo_yolov5
 $ pip install -r requirements.txt
 ```
-**1. Dataset for training, validation and testing can be created by**
+**1. Create dataset for training, validation and testing by**
 ```
 $ python3 create_dataset.py 0.2 0.1 --resize 1600 900 --download -1
 ```
@@ -17,4 +17,8 @@ available to this repos right now. You can change `-1` to the numbers of dataset
 $ git clone https://github.com/ultralytics/yolov5 
 $ cd yolov5
 $ pip install -r requirements.txt  
+```
+**3. Copy YAML file to yolov5 directory**
+```
+$ cp csgo.yaml yolov5/
 ```
