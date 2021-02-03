@@ -18,7 +18,7 @@ $ git clone https://github.com/ultralytics/yolov5
 $ cd yolov5
 $ pip install -r requirements.txt  
 ```
-**3. Copy YAML file to yolov5 directory**
+**3. Copy YAML file of `csgo_dataset` to yolov5 directory**
 ```
-$ cp csgo.yaml yolov5/
+$ cp ../csgo.yaml yolov5
 ```
