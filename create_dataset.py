@@ -122,7 +122,7 @@ def create_yaml(dataset):
         'names': ['t', 'ct']        
     }
 
-    with open('./yolov5/csgo.yaml', 'w') as file:
+    with open('csgo.yaml', 'w') as file:
         documents = yaml.dump(dict_file, file, default_flow_style=None)
     return
 
