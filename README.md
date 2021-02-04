@@ -23,3 +23,6 @@ $ pip install -r requirements.txt
 $ cp ../csgo.yaml yolov5
 ```
 **4. Train model**
+```
+$ python3 train.py --img 1600 --batch 2 --epochs 5 --data csgo.yaml --weights yolov5s.pt
+```
