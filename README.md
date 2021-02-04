@@ -29,5 +29,5 @@ $ python3 train.py --img 512 512 --batch 4 --epochs 5 --data csgo.yaml --weights
 The trained model will be in `yolov5/runs/train/exp/weights/`. The lastest model may be in different `exp`.
 **5. export to onnx**
 ```
-$ python models/export.py --weights runs/train/exp/weights/best.pt --img 512 512 --batch 1 
+$ python3 models/export.py --weights runs/train/exp/weights/best.pt --img 512 512 --batch 1 
 ```
