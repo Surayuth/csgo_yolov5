@@ -24,6 +24,6 @@ $ cp ../csgo.yaml ./
 ```
 **4. Train model**
 ```
-$ python3 train.py --img 1366 --batch 4 --epochs 5 --data csgo.yaml --weights yolov5s.pt
+$ python3 train.py --img 1366 768 --batch 4 --epochs 5 --data csgo.yaml --weights yolov5s.pt
 ```
 The trained model will be in `yolov5/run/train/exp/weights/`. The lastest model may be in different `exp`.
