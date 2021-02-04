@@ -20,7 +20,7 @@ $ pip install -r requirements.txt
 ```
 **3. Copy YAML file of `csgo_dataset` to yolov5 directory**
 ```
-$ cp ../csgo.yaml yolov5
+$ cp ../csgo.yaml ./
 ```
 **4. Train model**
 ```
